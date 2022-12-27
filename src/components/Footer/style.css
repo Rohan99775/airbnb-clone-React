@@ -1,0 +1,60 @@
+.bottom-nav1 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: var(--white);
+    border-top: 1px solid var(--grey);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2.5rem;
+    color: var(--dark-grey);
+}
+
+.left-content {
+    display: flex;
+    font-weight: 450;
+    font-size: 14px;
+    align-items: center;
+}
+
+.bottom-nav-text, ol {
+    display: flex;
+}
+
+.bullet-dot {
+    margin: 0 0.5rem;
+}
+
+.right-content {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+
+.language-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.support-and-arrow-div {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.support-span {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 951px) {
+    
+}
