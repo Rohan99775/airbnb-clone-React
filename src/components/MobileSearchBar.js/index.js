@@ -3,7 +3,6 @@ import './style.css';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import svg from './filterImg.svg';
 import CircleIcon from '@mui/icons-material/Circle';
-import { padding } from '@mui/system';
 
 function MobileSearchBar() {
   return (
