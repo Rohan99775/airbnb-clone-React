@@ -8,15 +8,15 @@ function BottomNavBar() {
     return (
         <div className='bottom-nav1'>
             <div className='left-content'>
-                <div className='copyright-div'>
-                    <CopyrightIcon
-                        style={{
-                            fontSize: '0.9rem',
-                            fontWeight: '100',
-                            marginTop: '0.3rem'
-                        }} />
-                </div>
                 <div className='bottom-nav-text' style={{ listStyleType: 'none' }}>
+                    <span className='copyright-div'>
+                        <CopyrightIcon
+                            style={{
+                                fontSize: '0.9rem',
+                                fontWeight: '100',
+                                marginTop: '0.13rem'
+                            }} />
+                    </span>
                     <span>2022 Airbnb, Inc</span>
                     <span class="bullet-dot">·</span>
                     <span>Privacy</span>

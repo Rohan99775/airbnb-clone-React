@@ -6,7 +6,7 @@
     overflow-x: auto;
     border-top: 1px solid var(--grey);
     position: sticky;
-    top: 86px;
+    top: 85px;
     z-index: 10;
     background-color: var(--white);
 }
